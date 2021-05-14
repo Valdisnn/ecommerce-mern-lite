@@ -1,0 +1,3 @@
+document.addEventListener('DOMContentLoaded', function() {
+    var mybutton=document.querySelector(".arrow-up");function scrollFunction(){700<document.body.scrollTop||700<document.documentElement.scrollTop?mybutton.style.display="block":mybutton.style.display="none"}function topFunction(){document.body.scrollTop=0,document.documentElement.scrollTop=0}window.onscroll=function(){scrollFunction()},mybutton.addEventListener("click",topFunction);
+});
